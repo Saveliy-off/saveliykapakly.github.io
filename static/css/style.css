@@ -1,0 +1,26 @@
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+.form_calck {
+    border: 2px solid #adb5bd;
+    padding: 25px;
+    border-radius: 25px;
+}
+.db {
+    display: none;
+}
+@media print {
+    header {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .h2_dlypetch {
+        font-size: 18px;
+    }
+    .db {
+        display: flex;
+        justify-content: center;
+    }
+}
